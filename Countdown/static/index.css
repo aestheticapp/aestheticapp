@@ -20,34 +20,12 @@ body {
   z-index:-10;
 }
 
-.phone {
-  position:absolute;
-  top: 10em;
-  left: 24em;
-  width: 17em;
-  height: 34.375em;
-  z-index:1;
-}
-
-.appicon {
-  position:absolute;
-  top: 300px;
-  left: 700px;
-  width: 60px;
-  height: 60px;
-  z-index:1;
-  border-style: solid;
-  border-color: #4eacff;
-  border-width: 1px;
-  border-radius: 8px;
-}
-
 .appname {
   position:absolute;
-  top: 300px;
-  left: 700px;
+  text-align:center;
+  top: 400px;
   color: #fff;
-  width: 600px;
+  width: 100%;
   font-size: 4em;
   font-weight: bold;
   text-shadow: 3px 4px 2px #3994dd;
@@ -55,27 +33,17 @@ body {
 
 .content {
   position:absolute;
-  top: 390px;
-  left: 700px;
-  width: 550px;
+  text-align:center;
+  top: 500px;
+  width: 100%;
   color: #fff;
   font-size: 1.2em;
-}
-
-.download_btn {
-  position:absolute;
-  top: 450px;
-  left: 700px;
-  width: 220px;
-  height: 57px;
-  z-index:1;
 }
 
 .footer {
   position:absolute;
   width: 100%;
-  top: 740px;
-  left: 0px;
+  top: 650px;
   text-align: center;
   color: #fff;
   font-size: 0.8em;
