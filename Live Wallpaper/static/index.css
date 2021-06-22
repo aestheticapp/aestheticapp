@@ -1,0 +1,55 @@
+body {
+  font-family: Arial;
+}
+
+.wrapper {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
+}
+
+.img_bg {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:auto;
+  min-width: 90em;
+  z-index:-10;
+}
+
+.appname {
+  position:absolute;
+  text-align:center;
+  top: 400px;
+  color: #fff;
+  width: 100%;
+  font-size: 4em;
+  font-weight: bold;
+  text-shadow: 3px 4px 2px #3994dd;
+}
+
+.content {
+  position:absolute;
+  text-align:center;
+  top: 500px;
+  width: 100%;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.footer {
+  position:absolute;
+  width: 100%;
+  top: 650px;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.footer a {
+  color: #fff;
+}
+
